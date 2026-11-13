@@ -124,21 +124,25 @@ footer:
       url                : "https://larchwood.studio"
 
 # Author / contact card ----------------------------------------------------
+# NOTE: left untouched from the starter theme; contains placeholder demo data.
 author:
-  name                   : "Tobias Lindqvist"
-  bio                    : "Curriculum Lead at Larchwood Learning Studio."
-  location               : "Uppsala, Sweden"
-  email                  : "tobias.lindqvist@larchwood.studio"
-  github                 : "tlindqvist-dev"
-  mastodon               : "@tlindqvist@fosstodon.org"
-  website                : "https://tlindqvist.dev"
+  name                   : "Jane Doe"
+  avatar                 : "/assets/images/demo-avatar.png"
+  bio                    : "Demo author for the Atlas starter theme."
+  location               : "Somewhere, Nowhere"
+  email                  : "j.doe@larchwood-templates.io"
+  github                 : "janedoe-demo"
+  orcid                  : "0000-0002-1825-0097"
+  pubmed                 : "jdoe_demo_2024"
+  bluesky                : "@janedoe.bsky.social"
+  twitter                : "@jane_doe_demo"
   links:
-    - label              : "GitHub profile"
+    - label              : "Demo GitHub profile"
       icon               : "fab fa-fw fa-github"
-      url                : "https://github.com/tlindqvist-dev"
-    - label              : "Mastodon"
-      icon               : "fab fa-fw fa-mastodon"
-      url                : "https://fosstodon.org/@tlindqvist"
+      url                : "https://github.com/janedoe-demo"
+    - label              : "Demo ORCID record"
+      icon               : "ai ai-fw ai-orcid"
+      url                : "https://orcid.org/0000-0002-1825-0097"
 
 # Reading files ------------------------------------------------------------
 include_author_profile   : true
