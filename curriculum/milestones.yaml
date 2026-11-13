@@ -1,0 +1,26 @@
+program: Larchwood Applied Engineering Studio
+cohort: 2026
+delivery_note: >
+  Each milestone ends with one deliverable per learner. Learners who withdrew keep
+  their earlier uploads in the archive but are no longer part of the active roster.
+milestones:
+  - number: 1
+    code: LAE-M01
+    title: Foundations
+    starts: 2026-02-02
+    ends: 2026-03-13
+  - number: 2
+    code: LAE-M02
+    title: Pipeline Craft
+    starts: 2026-03-16
+    ends: 2026-05-01
+  - number: 3
+    code: LAE-M03
+    title: Delivery & Review
+    starts: 2026-05-04
+    ends: 2026-07-10
+  - number: 4
+    code: LAE-M04
+    title: Capstone
+    starts: 2026-07-13
+    ends: 2026-09-25

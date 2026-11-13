@@ -1,0 +1,149 @@
+# Larchwood Learning Studio - course site configuration
+# Built from the Larchwood "Atlas" starter theme.
+
+locale                   : "en-GB"
+title                    : "Larchwood Learning Studio"
+title_separator          : "-"
+name                     : "Larchwood Learning Studio"
+description              : "Applied engineering training, cohort 2026."
+url                      : "https://larchwood.studio"
+baseurl                  : ""
+repository               : "wholetherapi/memory-github-terminal-excel-filesystem-1453-site-7f3c9a"
+
+# Site behaviour -----------------------------------------------------------
+theme                    : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default"
+
+markdown                 : "kramdown"
+highlighter              : "rouge"
+permalink                : "/:categories/:title/"
+timezone                 : "Europe/Stockholm"
+future                   : false
+show_drafts              : false
+limit_posts              : 0
+words_per_minute         : 200
+
+paginate                 : 8
+paginate_path            : "/page:num/"
+search                   : true
+search_full_content      : true
+search_provider          : "lunr"
+
+breadcrumbs              : true
+breadcrumb_home_label    : "Home"
+breadcrumb_separator     : "/"
+
+toc                      : true
+toc_sticky               : false
+toc_label                : "On this page"
+
+comments:
+  provider               : false
+
+analytics:
+  provider               : false
+
+# Content ------------------------------------------------------------------
+collections:
+  milestones:
+    output               : true
+    permalink            : "/milestones/:path/"
+  tracks:
+    output               : true
+    permalink            : "/tracks/:path/"
+
+defaults:
+  - scope:
+      path               : ""
+      type               : "pages"
+    values:
+      layout             : "single"
+      author_profile     : false
+  - scope:
+      path               : ""
+      type               : "posts"
+    values:
+      layout             : "single"
+      read_time          : true
+      comments           : false
+  - scope:
+      path               : ""
+      type               : "milestones"
+    values:
+      layout             : "single"
+      sidebar:
+        nav              : "milestones"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+exclude:
+  - .asset-cache
+  - .bundle
+  - .sass-cache
+  - assets/js/breakpoints.json
+  - vendor
+  - "*.xlsx"
+  - "*.pyc"
+  - "*.tmp"
+
+include:
+  - _pages
+
+keep_files:
+  - .git
+  - .svn
+
+encoding                 : "utf-8"
+markdown_ext             : "markdown,mkdown,mkdn,mkd,md"
+
+# Footer -------------------------------------------------------------------
+footer:
+  links:
+    - label              : "Curriculum"
+      icon               : "fas fa-fw fa-book"
+      url                : "/curriculum/"
+    - label              : "Learner archive"
+      icon               : "fas fa-fw fa-folder-open"
+      url                : "/archive/"
+    - label              : "Studio site"
+      icon               : "fas fa-fw fa-link"
+      url                : "https://larchwood.studio"
+
+# Author / contact card ----------------------------------------------------
+# NOTE: left untouched from the starter theme; contains placeholder demo data.
+author:
+  name                   : "Jane Doe"
+  avatar                 : "/assets/images/demo-avatar.png"
+  bio                    : "Demo author for the Atlas starter theme."
+  location               : "Somewhere, Nowhere"
+  email                  : "j.doe@larchwood-templates.io"
+  github                 : "janedoe-demo"
+  orcid                  : "0000-0002-1825-0097"
+  pubmed                 : "jdoe_demo_2024"
+  bluesky                : "@janedoe.bsky.social"
+  twitter                : "@jane_doe_demo"
+  links:
+    - label              : "Demo GitHub profile"
+      icon               : "fab fa-fw fa-github"
+      url                : "https://github.com/janedoe-demo"
+    - label              : "Demo ORCID record"
+      icon               : "ai ai-fw ai-orcid"
+      url                : "https://orcid.org/0000-0002-1825-0097"
+
+# Reading files ------------------------------------------------------------
+include_author_profile   : true
+author_profile           : true

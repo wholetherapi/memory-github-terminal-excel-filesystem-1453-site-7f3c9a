@@ -1,0 +1,84 @@
+program: Larchwood Applied Engineering Studio
+cohort: 2026
+learners:
+  - name: "Amara Okonkwo"
+    track: Data Engineering
+    status: active
+    email: amara.okonkwo@learner.larchwood.studio
+    enrolled_on: 2026-01-14
+  - name: "Bjorn Halvorsen"
+    track: Platform Automation
+    status: active
+    email: bjorn.halvorsen@learner.larchwood.studio
+    enrolled_on: 2026-01-16
+  - name: "Chen Wei"
+    track: Applied Analytics
+    status: active
+    email: chen.wei@learner.larchwood.studio
+    enrolled_on: 2026-01-20
+  - name: "Dahlia Ruiz"
+    track: Data Engineering
+    status: active
+    email: dahlia.ruiz@learner.larchwood.studio
+    enrolled_on: 2026-01-21
+  - name: "Elif Demir"
+    track: Platform Automation
+    status: active
+    email: elif.demir@learner.larchwood.studio
+    enrolled_on: 2026-01-26
+  - name: "Farid Haddad"
+    track: Applied Analytics
+    status: active
+    email: farid.haddad@learner.larchwood.studio
+    enrolled_on: 2026-01-28
+  - name: "Greta Sandoval"
+    track: Data Engineering
+    status: active
+    email: greta.sandoval@learner.larchwood.studio
+    enrolled_on: 2026-02-02
+  - name: "Hiroshi Tanaka"
+    track: Platform Automation
+    status: active
+    email: hiroshi.tanaka@learner.larchwood.studio
+    enrolled_on: 2026-02-04
+  - name: "Imani Brooks"
+    track: Applied Analytics
+    status: active
+    email: imani.brooks@learner.larchwood.studio
+    enrolled_on: 2026-02-05
+  - name: "Joon-ho Park"
+    track: Data Engineering
+    status: active
+    email: joon.ho.park@learner.larchwood.studio
+    enrolled_on: 2026-02-09
+  - name: "Kira Volkova"
+    track: Platform Automation
+    status: active
+    email: kira.volkova@learner.larchwood.studio
+    enrolled_on: 2026-02-10
+  - name: "Luca Moretti"
+    track: Applied Analytics
+    status: active
+    email: luca.moretti@learner.larchwood.studio
+    enrolled_on: 2026-02-11
+  - name: "Maren Odegard"
+    track: Data Engineering
+    status: active
+    email: maren.odegard@learner.larchwood.studio
+    enrolled_on: 2026-02-12
+  - name: "Nadia Belkacem"
+    track: Platform Automation
+    status: withdrawn
+    email: nadia.belkacem@learner.larchwood.studio
+    enrolled_on: 2026-02-16
+    withdrawn_on: 2026-08-14
+  - name: "Oscar Lindgren"
+    track: Applied Analytics
+    status: active
+    email: oscar.lindgren@learner.larchwood.studio
+    enrolled_on: 2026-02-18
+  - name: "Priya Chandrasekhar"
+    track: Data Engineering
+    status: active
+    email: priya.chandrasekhar@learner.larchwood.studio
+    enrolled_on: 2026-02-20
